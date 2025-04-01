@@ -11,6 +11,10 @@
     background-color: #d0d3d4;
     border-radius: 4px;
     display: flex;
+    flex-direction: row-reverse; 
+    justify-content: flex-start; 
+    
+    
 }
 
 .box1 {
@@ -37,29 +41,28 @@ h1 {
 /* Insira o código abaixo */
 
 .container1 {
-    justify-content: flex-start;
-    flex-direction: row;
+
 }
 
 .container2 {
-    justify-content: flex-end;
+  padding-right: 16%;
 }
 
 .container3 {
-   justify-content: center;
+    padding-right: 32%;
 }
 
 .container4 {
-    justify-content: space-between;
+    padding-right: 48%;
 }
 .container5 {
-    justify-content: space-around;
+    padding-right: 64%;
 }
 .container6 {
-    justify-content: space-evenly;
+    padding-right: 80%;
 }
 
 /* exercício 2*/
 .container-exercicioB {
-    flex-direction: column-reverse;
+    justify-content: start;
 }
